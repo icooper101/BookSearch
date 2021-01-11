@@ -10,7 +10,7 @@ module.exports = {
   findAll: function(req, res) {
     const { query: params } = req;
     axios
-      .get("https://www.googleapis.com/books/v1/volumes", {
+      .get("https://www.googleapis.com/books/v1/volumes?q=search-terms&key=AIzaSyCOgMbLu_IpwJPjR374OyrGbFKxwQpB-z4", {
         params
       })
       .then(results =>
