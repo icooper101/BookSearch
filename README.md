@@ -13,4 +13,4 @@ A simple app where you can search for a book by its title. If you want to save i
 
 #Deploy
 
-This app was deplayed on Heroku here * [here](https://booksearchicoop.herokuapp.com)
+This app was deplayed on Heroku * [here](https://booksearchicoop.herokuapp.com)
